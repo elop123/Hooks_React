@@ -1,4 +1,4 @@
-
+import Text from './components/Text'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <Text />
     </>
   )
 }
