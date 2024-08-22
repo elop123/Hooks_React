@@ -12,8 +12,8 @@ function clickHandle(){
 
     return(
         <>
-        <h1>Du har klikket på knappen {number} antal gange</h1>
-        <button onClick={() => clickHandle()} >Click me</button>
+        <h1 style={{ color: 'green' }}>Du har klikket på knappen {number} antal gange</h1>
+        <button style={{ color: 'green'}} onClick={() => clickHandle()} >Click me</button>
         </>
     )
 }
